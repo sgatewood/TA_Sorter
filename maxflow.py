@@ -1,3 +1,4 @@
+#todo: Clean up this code
 tas_per_shift = 2
 
 assert(tas_per_shift > 0)
@@ -7,17 +8,6 @@ def getList():
     lines = y.readlines()
     y.close()
     return lines
-
-# class Node:
-#     def __init__(self,name):
-#         self.neighbors = []
-#         self.name = name
-
-#     def __str__(self):
-#         return self.name
-
-#     def __hash__(self):
-#         return self.name
 
 def failIf(test,message):
     if(test):
